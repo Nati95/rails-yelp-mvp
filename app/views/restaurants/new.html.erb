@@ -6,6 +6,6 @@
 <p><%= f.input :address %></p>
 <p><%= f.input :phone_number %></p>
 <p><%= f.input :category , collection: ["chinese", "italian", "japanese", "french", "belgian"]%></p>
-<p><%= f.button :submit %></p>
+<%= f.submit "Create restaurant", class: "btn btn-primary" %>
 <% end %>
 </div>
